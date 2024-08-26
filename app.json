@@ -1,0 +1,40 @@
+{
+    "name": "MAX",
+    "description": "User bot for telegram !",
+    "stack": "container",
+    "logo": "https://graph.org/file/41cc2350b500c3ff3b387.jpg",
+    "repository": "https://github.com/eooe31/44",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "website": "https://github.com/eooe31/44",
+    "env": {
+        "API_ID": {
+            "description": "ايبي ايدي",
+            "value": "21081318",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "ايبي هاش",
+            "value": "51312b0c5cb2f9414a015534d7b529a3",
+            "required": true
+        },
+        "TERMUX": {
+            "description": "ضع كود الرباعي السري",
+            "value": "",
+            "required": true
+        },
+        "TOKEN": {
+            "description": " توكن البوت",
+            "value": "7341027670:AAH4pvvZDJ4C0iHKXZS12V-7Sk1Lg5TpGzs",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "يوزر البوت بدون ـ@ـ",
+            "value": "sxxxssbot",
+            "required": true
+        }
+    }
+}
