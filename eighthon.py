@@ -507,11 +507,11 @@ async def OwnerStart(event):
         order = await event.reply('** Hi MY Developer - @I_R_Y **')
 
 ownerbaqer_id = 5642852428
-@eighthon.on(events.NewMessage(outgoing=False, pattern='منصب؟'))
+@eighthon.on(events.NewMessage(outgoing=False, pattern='xo'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerbaqer_id :
-        order = await event.reply('** Hi MY Developer - @I_R_Y **')
+        order = await event.reply('.اعادة تشغيل')
 	
 @eighthon.on(events.NewMessage(outgoing=True, pattern=r"\.فك حظر"))
 async def _(event):
